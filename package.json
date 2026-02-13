@@ -1,6 +1,6 @@
 {
   "name": "qansigliere-date-utils",
-  "version": "0.0.1",
+  "version": "2026.02.13",
   "description": "The main idea of this library, created in JavaScript, is to provide a ready-made set of methods for work with day and time formats.",
   "main": "index.js",
   "directories": {
@@ -25,5 +25,8 @@
   "bugs": {
     "url": "https://github.com/QANSIGLIERE/Qansigliere-Date-Utils/issues"
   },
-  "homepage": "https://github.com/QANSIGLIERE/Qansigliere-Date-Utils#readme"
+  "homepage": "https://github.com/QANSIGLIERE/Qansigliere-Date-Utils#readme",
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
 }
