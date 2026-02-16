@@ -1,7 +1,7 @@
 var {
     getDateEpochFormat,
     convertEpochToISO,
-    getDateInISOFormat,
+    getDateISOFormat,
     getNumberOfDaysPerMonth,
     getFirstDayOfWeek,
     convertToDays,
@@ -13,7 +13,7 @@ var {
 
 module.exports.getDateEpochFormat = getDateEpochFormat;
 module.exports.convertEpochToISO = convertEpochToISO;
-module.exports.getDateInISOFormat = getDateInISOFormat;
+module.exports.getDateISOFormat = getDateISOFormat;
 module.exports.getNumberOfDaysPerMonth = getNumberOfDaysPerMonth;
 module.exports.getFirstDayOfWeek = getFirstDayOfWeek;
 module.exports.convertToSeconds = convertToSeconds;
