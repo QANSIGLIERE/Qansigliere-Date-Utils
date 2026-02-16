@@ -17,9 +17,7 @@ Using npm: `npm i qansigliere-date-utils`
 
 ## Functions
 
-- `getDateEpochFormat(adjustDays, skipMilliseconds)` - it returns a date timestamp in the EPOCH format
-  like 1770976468473. The adjustDays parameter indicates how many days need to be added to or removed from the current
-  date.
+- `getDateEpochFormat(skipMilliseconds)` - it returns a date timestamp in the EPOCH format like 1770976468473.
 - `getDate(adjustDays)` - it returns a date timestamp in the YYYY-MM-DD format. The adjustDays parameter indicates how
   many days need to be added to or removed from the current date.
 - `getDateISOFormat(adjustDays, skipMilliseconds)` - it returns a date timestamp in the ISO format. The adjustDays
