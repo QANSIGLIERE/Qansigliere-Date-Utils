@@ -20,8 +20,9 @@ Using npm: `npm i qansigliere-date-utils`
 - `getDateEpochFormat(skipMilliseconds)` - it returns a date timestamp in the EPOCH format like 1770976468473.
 - `getDate(adjustDays)` - it returns a date timestamp in the YYYY-MM-DD format. The adjustDays parameter indicates how
   many days need to be added to or removed from the current date.
-- `getDateISOFormat(adjustDays, skipMilliseconds)` - it returns a date timestamp in the ISO format. The adjustDays
-  parameter indicates how many days need to be added to or removed from the current date. If skipMilliseconds=true, it
+- `getDateISOFormat(adjustDays, adjustHours, adjustMinutes, adjustSeconds, skipMilliseconds)` - it returns a date
+  timestamp in the ISO format. The adjustDays / adjustHours / adjustMinutes / adjustSeconds parameters indicate how many
+  days / houts / minutes / seconds need to be added to or removed from the current date. If skipMilliseconds=true, it
   will return a timestamp without milliseconds like 2026-02-13T09:52:17Z
 - `convertEpochToISO(epochFormat, skipMilliseconds)` - it allows you to convert the epoch timestamp to ISO format
 - `getNumberOfDaysPerMonth(date)` - the function returns the number of days in the month for the specified date

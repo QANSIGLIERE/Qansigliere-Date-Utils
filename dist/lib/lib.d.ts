@@ -1,6 +1,6 @@
 export function getDateEpochFormat(skipMilliseconds: any): number;
 export function convertEpochToISO(epochFormat: any, skipMilliseconds: any): string;
-export function getDateISOFormat(adjustDays: any, skipMilliseconds: any): string;
+export function getDateISOFormat(adjustDays: any, adjustHours: any, adjustMinutes: any, adjustSeconds: any, skipMilliseconds: any): string;
 export function getNumberOfDaysPerMonth(date: any): number;
 export function getFirstDayOfWeek(date: any): Date;
 export function convertToSeconds(date: any): number;
